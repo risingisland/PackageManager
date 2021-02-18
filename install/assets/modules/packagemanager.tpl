@@ -6,9 +6,11 @@
  *
  * @category 	module
  * @version 	1.0-RC4
- * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
- * @author      Jako
+ * @internal	@dependencies requires files located at /assets/modules/packagemanager/
  * @internal	@modx_category Manager and Admin
  * @internal    @installset base, sample
+ * @lastupdate  18/02/2021
  */
-include_once(MODX_BASE_PATH . 'assets/modules/packagemanager/packagemanager.module.php');
+
+//AUTHORS: Jako
+include_once('../assets/modules/packagemanager/packagemanager.module.php');
